@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.regForm{
+    display: flex;
+    background: #ffffff;
+    width: 80%;
+    min-height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 9px #5757578c;
+}
+
+.register h1{
+    text-align: center;
+    color: #2C8FCB;
+    text-shadow: 0px 3px 6px #afafaf;
+}
+.register{
+    width: 60%;
+    padding: 20px 40px;
+    margin: auto;
+}
+.register input{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid #848484;
+    margin: 6px 0px 6px 0px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    font-weight: bold;
+    color: #2b2b2b;
+}
+.register label{
+   color: #a1a1a1;
+   font-size: 16px;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+.btn button{
+    width: 40%;
+    padding: 6px 0;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    background-color: #2C8FCB;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0px 3px 3px #80808080;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+
+/*FOR THE TABLE*/
+
+.back{
+    float: left;
+    border: none;
+    outline: none;
+    background-color: #2C8FCB;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px #80808080;
+    padding: 5px 20px;
+    border-radius: 100px;
+}
+.back a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.userInfos{
+    padding: 30px 50px;
+    text-align: center;
+}
+.userInfos h1{
+    text-align: center;
+    color: #2C8FCB;
+    text-shadow: 0px 3px 6px #afafaf;
+}
+.userInfos table{
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #2C8FCB;
+    color: #141414;
+    font-weight: bold;
+}
+.userInfos table th{
+    font-size: 18px;
+    color: white;
+    background-color: #2C8FCB;
+}
+.userInfos td, th{
+    padding: 5px 0;
+    border-bottom: 1px solid #2C8FCB;
+}
